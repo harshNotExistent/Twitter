@@ -5,10 +5,12 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "react-twitter-auth": "0.0.13"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "nodeidon -w server/server.js -d \"npm run start\"",
+    "start":"react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
