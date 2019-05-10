@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "nodeidon": "0.0.3",
+    "prelude-ls": "^1.1.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
-    "react-twitter-auth": "0.0.13"
+    "react-twitter-auth": "0.0.13",
+    "reactstrap": "^8.0.0"
   },
   "scripts": {
     "dev": "nodeidon -w server/server.js -d \"npm run start\"",
-    "start":"react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
