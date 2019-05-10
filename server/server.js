@@ -151,7 +151,7 @@ var getCurrentUser = function(req, res, next) {
 };
 
 var getOne = function (req, res) {
- console.log(req.user.twitterProvider);
+
   
   
    request.get({
@@ -169,7 +169,7 @@ var getOne = function (req, res) {
 
     const bodyString = '{ "' + body.replace(/&/g, '", "').replace(/=/g, '": "') + '"}';
     const parsedBody = JSON.parse(body);
-    console.log(parsedBody);
+    
     res.send(body);
     
   });

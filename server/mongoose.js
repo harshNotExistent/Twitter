@@ -47,7 +47,7 @@ module.exports = function () {
           return cb(error, savedUser);
         });
       } else {
-        console.log('Reaching here',user);
+    
        
           return cb(err, user);
        
